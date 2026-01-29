@@ -1,3 +1,17 @@
+--- 
+Run from your IDE or run from terminal by: 
+cd /Users/YourName/YourDirectory1/YourDirectory2/BookingCLI-main/gestionale-prenotazioni
+mkdir -p target/classes
+javac -d target/classes \
+  it/gestionale/prenotazioni/application/*.java \
+  it/gestionale/prenotazioni/domain/*.java \
+  it/gestionale/prenotazioni/service/*.java \
+  it/gestionale/prenotazioni/repository/*.java \
+  it/gestionale/prenotazioni/enums/*.java \
+  it/gestionale/prenotazioni/exceptions/*.java
+java -cp target/classes it.gestionale.prenotazioni.application.GestionalePrenotazioni
+---
+
 # BookingCLI
 ## Booking Management System - CLI 
 
